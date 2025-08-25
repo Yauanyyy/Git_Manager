@@ -13,7 +13,7 @@ CREATE_NO_WINDOW = subprocess.CREATE_NO_WINDOW if sys.platform.startswith("win")
 class GitProManager:
     def __init__(self, root):
         self.root = root
-        self.root.title("Git Pro Manager")
+        self.root.title("Git Manager")
         self.root.geometry("1200x800")
 
         self.command_queue = queue.Queue()
