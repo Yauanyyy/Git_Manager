@@ -18,16 +18,16 @@
 - **诊断报告**：一键生成仓库状态诊断日志。
 - **双重操作入口**  
   - 左侧按钮  
-  - 顶部菜单栏（文件/操作菜单）  
+  - 顶部菜单栏（文件）  
 - **可调整布局**  
   - 左侧功能区宽度可拖动  
-  - 底部日志输出窗口高度可调整  
+
 
 ---
 
 ## 📸 截图
 
-（这里放你的应用运行截图，比如 `screenshot.png`）  
+
 
 ---
 
@@ -35,33 +35,17 @@
 
 ### 1. 克隆本项目
 ```bash
-git clone https://github.com/yourname/git-pro-manager.git
-cd git-pro-manager
+git clone https://github.com/Yauanyyy/Git_Manager.git
+cd Git_Manager
 ```
 
-### 2. 安装依赖
-确保已安装 **Python 3.8+**。  
-运行以下命令安装依赖：
-```bash
-pip install -r requirements.txt
-```
 
-> 如果你没有 `requirements.txt`，本项目默认依赖只使用标准库，无需额外安装。
-
-### 3. 启动程序
+### 2. 启动程序
 ```bash
-python git_pro_manager.py
+python git.py
 ```
 
 程序启动后会自动检测当前目录是否为 Git 仓库。
-
----
-
-## 🛠️ 系统需求
-
-- Windows / Linux / macOS
-- Python 3.8 及以上
-- Git 命令行工具（需在环境变量 PATH 中可用）
 
 ---
 
